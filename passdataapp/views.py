@@ -40,6 +40,6 @@ def filter(request):
 	return render(request,"filter.html",locals())    
 
 def newDocument(response):
-   return HttpResponse('<h1>學號:41118112</h1><br><h1>姓名:邱勻誌</h1>')
+   return HttpResponse('<h1>學號:41118106</h1><br><h1>姓名:蔡秉學</h1>')
 
 
